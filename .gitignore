@@ -1,0 +1,38 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database & Data files
+sqlite.db
+sqlite.db-journal
+sqlite.db-wal
+sqlite.db-shm
+data/invoices/*.pdf
+
+# Misc
+.DS_Store
+.fleet
+.idea
+.vscode/
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+# Seeding
+server/database/seed.local.ts
