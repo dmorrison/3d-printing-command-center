@@ -2,7 +2,7 @@ import { sqliteTable, text, integer, real } from 'drizzle-orm/sqlite-core';
 
 export const spools = sqliteTable('spools', {
   id: integer('id').primaryKey({ autoIncrement: true }),
-  sku: text('sku'),
+  manufacturerSku: text('manufacturer_sku'),
   name: text('name').notNull(),
   brand: text('brand').notNull(),
   vendor: text('vendor'),
@@ -34,7 +34,7 @@ export const filamentUsage = sqliteTable('filament_usage', {
 
 export const equipment = sqliteTable('equipment', {
   id: integer('id').primaryKey({ autoIncrement: true }),
-  sku: text('sku'),
+  modelNumber: text('model_number'),
   name: text('name').notNull(),
   category: text('category').notNull(), // 'Printer', 'Nozzle', 'Accessory', 'Part'
   vendor: text('vendor'),

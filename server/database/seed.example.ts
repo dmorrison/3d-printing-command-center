@@ -12,7 +12,7 @@ async function seed() {
   // --- Example Spools ---
   const spoolData = [
     { 
-      sku: 'PLA-BASIC-WHT-1KG', 
+      manufacturerSku: 'PLA-BASIC-WHT-1KG', 
       name: 'PLA Basic', 
       brand: 'Example Brand', 
       material: 'PLA', 
@@ -24,7 +24,7 @@ async function seed() {
       notes: "Example note"
     },
     { 
-      sku: 'PETG-HF-BLU-1KG', 
+      manufacturerSku: 'PETG-HF-BLU-1KG', 
       name: 'PETG HF', 
       brand: 'Example Brand', 
       material: 'PETG', 
@@ -44,7 +44,7 @@ async function seed() {
   // --- Example Equipment ---
   const equipmentData = [
     { 
-      sku: 'PRINTER-X1-COMBO', 
+      modelNumber: 'PRINTER-X1-COMBO', 
       name: 'Example 3D Printer', 
       category: 'Printer', 
       purchaseDate: new Date('2026-01-01').toISOString(), 
@@ -53,7 +53,7 @@ async function seed() {
       notes: ""
     },
     { 
-      sku: 'NOZ-04-HARDENED', 
+      modelNumber: 'NOZ-04-HARDENED', 
       name: '0.4mm Hardened Nozzle', 
       category: 'Nozzle', 
       purchaseDate: new Date('2026-01-15').toISOString(), 

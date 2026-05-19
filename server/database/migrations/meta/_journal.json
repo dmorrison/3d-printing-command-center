@@ -8,6 +8,13 @@
       "when": 1779199362407,
       "tag": "0000_rapid_red_skull",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1779202184406,
+      "tag": "0001_amused_mandarin",
+      "breakpoints": true
     }
   ]
 }
